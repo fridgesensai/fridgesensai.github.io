@@ -759,14 +759,6 @@ function configure() {
     idx = addElement(tt, idx, element);
   });
 
-  // Configure endgame screen
-  var egc = mydata.endgame;
-  var egt = document.getElementById("endgame_table");
-  idx = 0;
-  egc.forEach(element => {
-    idx = addElement(egt, idx, element);
-  });
-
   // Configure postmatch screen
   pmc = mydata.postmatch;
   pmt = document.getElementById("postmatch_table");
