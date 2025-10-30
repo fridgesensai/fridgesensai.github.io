@@ -42,10 +42,11 @@ var config_data = `
       "code": "as",
       "type": "radio",
       "choices": {
-      "Processor": "Processor",
-      "Middle": "Middle",
-      "Far": "Far from Processor"
-       },
+        "Processor": "Processor",
+        "Middle": "Middle",
+        "Far": "Far from Processor"
+      },
+      "defaultValue": "a",
       "required": "true"
     },
     { "name": "Coral L1",
