@@ -39,7 +39,6 @@ function addTimer(table, idx, name, data) {
   if (data.hasOwnProperty('tooltip')) {
     cell1.setAttribute("title", data.tooltip);
   }
-
   idx += 1
   row = table.insertRow(idx);
   cell = row.insertCell(0);
