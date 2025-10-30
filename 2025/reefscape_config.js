@@ -36,9 +36,6 @@ var config_data = `
       "min": 1,
       "max": 99999
     }
-  ]
-}
-    }
   ],
   "auton": [
     { "name": "Auto Start Position",
