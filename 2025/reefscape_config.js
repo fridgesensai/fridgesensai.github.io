@@ -16,8 +16,8 @@ var config_data = `
       "code": "l",
       "type": "level",
       "choices": {
-        "Quals": "Quals",
-        "Semis": "Semifinals",
+        "Quals": "Quals <br>",
+        "Semis": "Semifinals <br>",
         "Finals": "Finals"
       },
       "defaultValue": "qm",
@@ -100,11 +100,11 @@ var config_data = `
     }
   ],
   "postmatch": [
-    { "name": "Driver Skill",
+    { "name": "Driver Skill (1-10)",
       "code": "ds",
       "type": "number",
       "choices": {
-        "min": 0,
+        "min": 1,
         "max": 10
       },
       "required": "true"
