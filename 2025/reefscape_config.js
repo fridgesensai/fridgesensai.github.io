@@ -16,9 +16,9 @@ var config_data = `
       "code": "l",
       "type": "level",
       "choices": {
-        "qm": "Quals<br>",
-        "sf": "Semifinals<br>",
-        "f": "Finals"
+        "Quals": "Quals",
+        "Semis": "Semifinals",
+        "Finals": "Finals"
       },
       "defaultValue": "qm",
       "required": "true"
@@ -42,59 +42,59 @@ var config_data = `
       "code": "as",
       "type": "radio",
       "choices": {
-        "Processor": "Processor",
+        "Processor": "Close to Processor",
         "Middle": "Middle",
         "Far": "Far from Processor"
       },
       "required": "true"
     },
-    { "name": "Coral L1",
+    { "name": "Coral L1 Scores",
       "code": "ac1",
       "type": "counter"
     },
-    { "name": "Coral L2",
+    { "name": "Coral L2 Scores",
       "code": "ac2",
       "type": "counter"
     },
-    { "name": "Coral L3",
+    { "name": "Coral L3 Scores",
       "code": "ac3",
       "type": "counter"
     },
-    { "name": "Coral L4",
+    { "name": "Coral L4 Scores",
       "code": "ac4",
       "type": "counter"
     },
-    { "name": "Processor Score",
+    { "name": "Processor Scores",
       "code": "aps",
       "type": "counter"
     },
-    { "name": "Net Score",
+    { "name": "Net Scores",
       "code": "ans",
       "type": "counter"
     }
   ],
   "teleop": [
-    { "name": "Coral L1",
+    { "name": "Coral L1 Scores",
       "code": "tc1",
       "type": "counter"
     },
-    { "name": "Coral L2",
+    { "name": "Coral L2 Scores",
       "code": "tc2",
       "type": "counter"
     },
-    { "name": "Coral L3",
+    { "name": "Coral L3 Scores",
       "code": "tc3",
       "type": "counter"
     },
-    { "name": "Coral L4",
+    { "name": "Coral L4 Scores",
       "code": "tc4",
       "type": "counter"
     },
-    { "name": "Processor Score",
+    { "name": "Processor Scores",
       "code": "tps",
       "type": "counter"
     },
-    { "name": "Net Score",
+    { "name": "Net Scores",
       "code": "tns",
       "type": "counter"
     }
