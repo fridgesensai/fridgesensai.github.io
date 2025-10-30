@@ -42,9 +42,9 @@ var config_data = `
       "code": "as",
       "type": "radio",
       "choices": {
-        "Processor": "Close to Processor",
-        "Middle": "Middle",
-        "Far": "Far from Processor"
+      "Processor": "Close to Processor",
+      "Middle": "Middle",
+      "Far": "Far from Processor"
       },
       "required": "true"
     },
